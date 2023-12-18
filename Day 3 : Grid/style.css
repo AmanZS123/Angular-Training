@@ -1,0 +1,37 @@
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.grid-container div{
+  margin : 2px;
+  padding : 5px;
+  overflow: hidden;
+  border: 0px solid transparent;
+}
+
+.item{
+  grid-column: auto/span 1;
+  width:  200px;
+  height: 200px;
+  background-color: black;
+}
+
+form{
+  text-align: center;
+  margin : 20px;
+  display: flex;
+}
+
+input[type="submit"]{
+  background-color: yellowgreen;
+  margin-left: 2px;
+  width: 50%;
+  height: 30px;
+  border: 0px ;
+}
+
+input{
+  width:100%;
+  height : 20px;
+}
